@@ -3,16 +3,16 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-21T10:14:09.705361-07:00"
+    created: "2020-08-21T10:17:38.122149-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-pc'
       version: ~0.1.0
     description: A Helm chart to deploy Ping Customer360 into a Kubernetes cluster
-    digest: 4116d3d27e37e4acbc4af18f8a682294c0ed64191718ddb770816641c39a6c68
+    digest: e39353eafb77f08d7a55ef84764fc108c8d456a40511323ae9aafd6467c5a2e6
     name: customer360
     type: application
     urls:
     - customer360-0.0.1.tgz
     version: 0.0.1
-generated: "2020-08-21T10:14:09.70268-07:00"
+generated: "2020-08-21T10:17:38.117665-07:00"

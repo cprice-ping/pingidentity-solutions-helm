@@ -3,7 +3,7 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-24T11:11:50.536026-07:00"
+    created: "2020-08-24T16:04:43.572023-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-pc'
@@ -21,10 +21,25 @@ entries:
       repository: '@pingidentity-pc'
       version: ~0.1.0
     description: A Helm chart to deploy Ping Customer360 into a Kubernetes cluster
-    digest: 074633c1cfeeea9b4c6f8690a99759adc6b00aa232f5e7146c282bf626c9c869
+    digest: 5bbdf3f57de8940e5160b39240bac1917c1875a11ed0039a94a07b4b153a0713
     name: customer360
     type: application
     urls:
     - customer360-0.0.4.tgz
     version: 0.0.4
-generated: "2020-08-24T11:11:50.529424-07:00"
+  pingdirectory:
+  - apiVersion: v1
+    appVersion: 8.1.0
+    created: "2020-08-24T16:04:43.572789-07:00"
+    description: A Sample PingDirectory Helm chart - CPrice edits
+    digest: c0ee2a80a3c22fc795762a7c60c4d8ee6683d1e307807c137da9eb20fe6204b0
+    home: https://www.pingidentity.com/
+    name: pingdirectory
+    sources:
+    - https://github.com/cprice-ping/pingidentity-helm-charts
+    - https://github.com/pingidentity/pingidentity-docker-builds
+    - https://github.com/pingidentity/pingidentity-server-profiles
+    urls:
+    - pingdirectory-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-08-24T16:04:43.564064-07:00"

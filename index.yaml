@@ -3,13 +3,16 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T08:58:41.667837-07:00"
+    created: "2020-08-25T09:25:45.364429-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
       version: ~0.0.2
+    - name: pingfederate
+      repository: '@pingidentity-solutions'
+      version: ~0.0.1
     description: A Helm chart to deploy Ping Customer360 into a Kubernetes cluster
-    digest: c58c06dbd05752bd463fd16430978903b3ef64443b0dc124cf1eaad915879be3
+    digest: a61a3d3d8a938e0ecd1311e876027fdc19a825c84d290d5dceeb8c4708350845
     name: customer360
     type: application
     urls:
@@ -17,7 +20,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T08:58:41.665985-07:00"
+    created: "2020-08-25T09:25:45.361463-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-pc'
@@ -44,7 +47,7 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-08-25T08:58:41.670943-07:00"
+    created: "2020-08-25T09:25:45.366971-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 11e394ed1470eabd4771b755c2d884f19abeb3dee705b8a5203c86d2ab8bec4c
     home: https://www.pingidentity.com/
@@ -58,7 +61,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-08-25T08:58:41.669308-07:00"
+    created: "2020-08-25T09:25:45.365799-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 757263c72bfb91a4c8a0b8a3c791a1c3afca715dc3d16bab40fe36356f82b092
     home: https://www.pingidentity.com/
@@ -73,9 +76,9 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-08-25T08:58:41.671915-07:00"
+    created: "2020-08-25T09:25:45.367919-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
-    digest: 6e02dbdaa09dcf0ba2ebebe065b471639586edbae5c41d2b89c2a8e161fa2c99
+    digest: e4d67dd7e2e4b4f9f1439dd49f24bb528b9629d8cb59c002a0d2e2586652d589
     home: https://www.pingidentity.com/
     name: pingfederate
     sources:
@@ -83,6 +86,6 @@ entries:
     - https://github.com/pingidentity/pingidentity-docker-builds
     - https://github.com/pingidentity/pingidentity-server-profiles
     urls:
-    - pingfederate-0.0.1.tgz
-    version: 0.0.1
-generated: "2020-08-25T08:58:41.65676-07:00"
+    - pingfederate-0.0.2.tgz
+    version: 0.0.2
+generated: "2020-08-25T09:25:45.35204-07:00"

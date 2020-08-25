@@ -3,7 +3,7 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T12:20:35.883132-07:00"
+    created: "2020-08-25T13:08:38.908952-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -23,7 +23,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T12:20:35.879701-07:00"
+    created: "2020-08-25T13:08:38.906074-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-pc'
@@ -50,9 +50,9 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-08-25T12:20:35.884128-07:00"
+    created: "2020-08-25T13:08:38.90969-07:00"
     description: A Sample PingAccess Helm chart
-    digest: c3ab2023749e9232aa4635a3ceca23f61584640bf5d37df9406bade790c8baa1
+    digest: b96da67545964dff7324e90ddac20cba48fc6aeda9c60404ea11a2f19f19084a
     home: https://www.pingidentity.com/
     name: pingaccess
     sources:
@@ -60,12 +60,12 @@ entries:
     - https://github.com/pingidentity/pingidentity-docker-builds
     - https://github.com/pingidentity/pingidentity-server-profiles
     urls:
-    - pingaccess-0.0.3.tgz
-    version: 0.0.3
+    - pingaccess-0.0.4.tgz
+    version: 0.0.4
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-08-25T12:20:35.885542-07:00"
+    created: "2020-08-25T13:08:38.910905-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 11e394ed1470eabd4771b755c2d884f19abeb3dee705b8a5203c86d2ab8bec4c
     home: https://www.pingidentity.com/
@@ -80,7 +80,7 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-08-25T12:20:35.886965-07:00"
+    created: "2020-08-25T13:08:38.91234-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
     digest: 4bcab618d4f8435db40af0aa43677bb05571af8aa2857ef9efc8d7ff0fcf199d
     home: https://www.pingidentity.com/
@@ -92,4 +92,4 @@ entries:
     urls:
     - pingfederate-0.0.3.tgz
     version: 0.0.3
-generated: "2020-08-25T12:20:35.869334-07:00"
+generated: "2020-08-25T13:08:38.895477-07:00"

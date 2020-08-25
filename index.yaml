@@ -3,13 +3,13 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T07:26:34.01134-07:00"
+    created: "2020-08-25T08:16:51.202815-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
-      version: 0.0.1
+      version: ~0.0.2
     description: A Helm chart to deploy Ping Customer360 into a Kubernetes cluster
-    digest: d8c646b5b122c8d272436696e8b6ae6c4f37b047fb779b3df15998a84c428fd5
+    digest: 84ee8439cfdf9aca329819e93063d54611c38c43e98cbc3b9256068a18162b40
     name: customer360
     type: application
     urls:
@@ -17,7 +17,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T07:26:34.009678-07:00"
+    created: "2020-08-25T08:16:51.201689-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-pc'
@@ -44,9 +44,23 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-08-25T07:26:34.012592-07:00"
+    created: "2020-08-25T08:16:51.20486-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
-    digest: ca456383b9b402491d76aa521b8c49b50bd07bed00e59e8e7a10bb565cb341f3
+    digest: 11e394ed1470eabd4771b755c2d884f19abeb3dee705b8a5203c86d2ab8bec4c
+    home: https://www.pingidentity.com/
+    name: pingdirectory
+    sources:
+    - https://github.com/cprice-ping/pingidentity-helm-charts
+    - https://github.com/pingidentity/pingidentity-docker-builds
+    - https://github.com/pingidentity/pingidentity-server-profiles
+    urls:
+    - pingdirectory-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    appVersion: 8.1.0
+    created: "2020-08-25T08:16:51.20407-07:00"
+    description: A Sample PingDirectory Helm chart - CPrice edits
+    digest: 757263c72bfb91a4c8a0b8a3c791a1c3afca715dc3d16bab40fe36356f82b092
     home: https://www.pingidentity.com/
     name: pingdirectory
     sources:
@@ -56,4 +70,4 @@ entries:
     urls:
     - pingdirectory-0.0.2.tgz
     version: 0.0.2
-generated: "2020-08-25T07:26:34.001327-07:00"
+generated: "2020-08-25T08:16:51.194854-07:00"

@@ -3,7 +3,7 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T13:08:38.908952-07:00"
+    created: "2020-08-25T13:11:44.396638-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -15,15 +15,15 @@ entries:
       repository: '@pingidentity-solutions'
       version: ~0.0.1
     description: A Helm chart to deploy Ping Customer360 into a Kubernetes cluster
-    digest: 2d0100bbe749a0a7b9202f2be01076a700b9c4218b3e02573689f6c94b7f4176
+    digest: c7e8639efeac45cb3b0aa059f0f4b0cf5675d580ad4d001d63eee7035ae34ffb
     name: customer360
     type: application
     urls:
-    - customer360-0.0.7.tgz
-    version: 0.0.7
+    - customer360-0.0.8.tgz
+    version: 0.0.8
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-08-25T13:08:38.906074-07:00"
+    created: "2020-08-25T13:11:44.394177-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-pc'
@@ -50,7 +50,7 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-08-25T13:08:38.90969-07:00"
+    created: "2020-08-25T13:11:44.397362-07:00"
     description: A Sample PingAccess Helm chart
     digest: b96da67545964dff7324e90ddac20cba48fc6aeda9c60404ea11a2f19f19084a
     home: https://www.pingidentity.com/
@@ -65,7 +65,7 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-08-25T13:08:38.910905-07:00"
+    created: "2020-08-25T13:11:44.398605-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 11e394ed1470eabd4771b755c2d884f19abeb3dee705b8a5203c86d2ab8bec4c
     home: https://www.pingidentity.com/
@@ -80,7 +80,7 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-08-25T13:08:38.91234-07:00"
+    created: "2020-08-25T13:11:44.400351-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
     digest: 4bcab618d4f8435db40af0aa43677bb05571af8aa2857ef9efc8d7ff0fcf199d
     home: https://www.pingidentity.com/
@@ -92,4 +92,4 @@ entries:
     urls:
     - pingfederate-0.0.3.tgz
     version: 0.0.3
-generated: "2020-08-25T13:08:38.895477-07:00"
+generated: "2020-08-25T13:11:44.387186-07:00"

@@ -3,7 +3,7 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-09-08T16:36:54.873853-07:00"
+    created: "2020-09-09T08:05:47.25913-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -24,7 +24,7 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-09-08T16:36:54.87507-07:00"
+    created: "2020-09-09T08:05:47.334857-07:00"
     description: A Sample PingAccess Helm chart
     digest: 7fd4d7051b374fbe14b6556b52bb491838585effa8e518a8a6bb0fb7ffa76d0e
     home: https://www.pingidentity.com/
@@ -39,9 +39,9 @@ entries:
   pingcentral:
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2020-09-08T16:36:54.880221-07:00"
+    created: "2020-09-09T08:05:47.3387-07:00"
     description: A Sample PingCentral Helm chart - based on pingidentity-pc chart
-    digest: 53c11b07a0db2c4b480643cc9633fb0a02a490842e6afb42549b65e0aa33c882
+    digest: 996255f81b01c811508f700e84536a58538567876b2d01b03abd118662a64e06
     home: https://www.pingidentity.com/
     name: pingcentral
     sources:
@@ -54,7 +54,7 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-09-08T16:36:54.881676-07:00"
+    created: "2020-09-09T08:05:47.341799-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 4f7520865852274b33a71678be8a868e539d7c75991e88008b1ed11f5daaa7f8
     home: https://www.pingidentity.com/
@@ -69,7 +69,7 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-09-08T16:36:54.884442-07:00"
+    created: "2020-09-09T08:05:47.344948-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
     digest: 4bcab618d4f8435db40af0aa43677bb05571af8aa2857ef9efc8d7ff0fcf199d
     home: https://www.pingidentity.com/
@@ -81,4 +81,4 @@ entries:
     urls:
     - pingfederate-0.0.3.tgz
     version: 0.0.3
-generated: "2020-09-08T16:36:54.865884-07:00"
+generated: "2020-09-09T08:05:47.2517-07:00"

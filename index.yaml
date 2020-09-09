@@ -3,7 +3,7 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-09-09T13:23:27.07802-07:00"
+    created: "2020-09-09T13:39:40.40682-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -30,7 +30,7 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-09-09T13:23:27.079396-07:00"
+    created: "2020-09-09T13:39:40.483522-07:00"
     description: A Sample PingAccess Helm chart
     digest: 7fd4d7051b374fbe14b6556b52bb491838585effa8e518a8a6bb0fb7ffa76d0e
     home: https://www.pingidentity.com/
@@ -45,9 +45,9 @@ entries:
   pingcentral:
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2020-09-09T13:23:27.084798-07:00"
+    created: "2020-09-09T13:39:40.48645-07:00"
     description: A Sample PingCentral Helm chart - based on pingidentity-pc chart
-    digest: c945e7ac605e8905da0f608b11882310079a5cefad069e4622a4c62b81e18ef3
+    digest: 5f413b55116ef3524501c334552a16f9380b5507ead64f4d2091c6f058af3ebe
     home: https://www.pingidentity.com/
     name: pingcentral
     sources:
@@ -55,12 +55,12 @@ entries:
     - https://github.com/pingidentity/pingidentity-docker-builds
     - https://github.com/pingidentity/pingidentity-server-profiles
     urls:
-    - pingcentral-0.0.12.tgz
-    version: 0.0.12
+    - pingcentral-0.0.13.tgz
+    version: 0.0.13
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-09-09T13:23:27.086156-07:00"
+    created: "2020-09-09T13:39:40.521341-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 4f7520865852274b33a71678be8a868e539d7c75991e88008b1ed11f5daaa7f8
     home: https://www.pingidentity.com/
@@ -75,7 +75,7 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-09-09T13:23:27.087684-07:00"
+    created: "2020-09-09T13:39:40.524346-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
     digest: 4bcab618d4f8435db40af0aa43677bb05571af8aa2857ef9efc8d7ff0fcf199d
     home: https://www.pingidentity.com/
@@ -87,4 +87,4 @@ entries:
     urls:
     - pingfederate-0.0.3.tgz
     version: 0.0.3
-generated: "2020-09-09T13:23:27.064873-07:00"
+generated: "2020-09-09T13:39:40.36437-07:00"

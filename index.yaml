@@ -3,7 +3,7 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-09-23T07:23:52.62218-07:00"
+    created: "2020-09-23T07:39:54.601987-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -30,7 +30,7 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-09-23T07:23:52.623724-07:00"
+    created: "2020-09-23T07:39:54.603315-07:00"
     description: A Sample PingAccess Helm chart
     digest: 7fd4d7051b374fbe14b6556b52bb491838585effa8e518a8a6bb0fb7ffa76d0e
     home: https://www.pingidentity.com/
@@ -45,9 +45,9 @@ entries:
   pingcentral:
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2020-09-23T07:23:52.629162-07:00"
+    created: "2020-09-23T07:39:54.606493-07:00"
     description: A Sample PingCentral Helm chart - based on pingidentity-pc chart
-    digest: dcf2ff541cc12f0180380b3fefdc10add0620c929eae9aa717b6ed07045fb807
+    digest: b1f08e63a3dfeba159940c5943a43738141b0506ea34626e53d14b9200f0624a
     home: https://www.pingidentity.com/
     name: pingcentral
     sources:
@@ -60,7 +60,7 @@ entries:
   pingdataconsole:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-09-23T07:23:52.63131-07:00"
+    created: "2020-09-23T07:39:54.607393-07:00"
     description: A Sample PingDataConsole Helm chart
     digest: 1516fd9024b975f2f8164ef417d71085f77b3b492f2cac723b9b59ed68bfe468
     home: https://www.pingidentity.com/
@@ -75,7 +75,7 @@ entries:
   pingdatasync:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-09-23T07:23:52.632402-07:00"
+    created: "2020-09-23T07:39:54.608283-07:00"
     description: A Sample PingDataSync Helm chart - CPrice edits
     digest: 47c77b9a3acfeb0fa687c4f64dcd653ec4eba8b1dbb069e1389a598c417a299c
     home: https://www.pingidentity.com/
@@ -90,7 +90,7 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-09-23T07:23:52.633715-07:00"
+    created: "2020-09-23T07:39:54.609419-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 1a15185a5c725c115f1bce2f4dd03d54da93e9e3deae1591f4d62527f3814f63
     home: https://www.pingidentity.com/
@@ -105,7 +105,7 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-09-23T07:23:52.635234-07:00"
+    created: "2020-09-23T07:39:54.611237-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
     digest: 4bcab618d4f8435db40af0aa43677bb05571af8aa2857ef9efc8d7ff0fcf199d
     home: https://www.pingidentity.com/
@@ -117,4 +117,4 @@ entries:
     urls:
     - pingfederate-0.0.3.tgz
     version: 0.0.3
-generated: "2020-09-23T07:23:52.608448-07:00"
+generated: "2020-09-23T07:39:54.591997-07:00"

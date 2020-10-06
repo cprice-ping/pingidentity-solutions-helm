@@ -3,7 +3,36 @@ entries:
   customer360:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2020-10-02T15:38:28.819749-07:00"
+    created: "2020-10-06T15:42:21.434218-07:00"
+    dependencies:
+    - name: pingdirectory
+      repository: '@pingidentity-solutions'
+      version: ~0.0.5
+    - name: pingdatasync
+      repository: '@pingidentity-solutions'
+      version: ~0.0.1
+    - name: pingfederate
+      repository: '@pingidentity-solutions'
+      version: ~0.0.1
+    - name: pingaccess
+      repository: '@pingidentity-solutions'
+      version: ~0.0.5
+    - name: pingcentral
+      repository: '@pingidentity-solutions'
+      version: ~0.0.7
+    - name: pingdataconsole
+      repository: '@pingidentity-solutions'
+      version: ~0.1.0
+    description: A Helm chart to deploy Ping Customer360 into a Kubernetes cluster
+    digest: 36d2945b93dac1a7aa00428d40bd4879a2a93b7180ced893f8543b07fa048df4
+    name: customer360
+    type: application
+    urls:
+    - customer360-0.2.1-alpha.tgz
+    version: 0.2.1-alpha
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2020-10-06T15:42:21.426021-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -32,7 +61,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2020-10-02T15:38:28.811877-07:00"
+    created: "2020-10-06T15:42:21.386976-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -61,7 +90,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2020-10-02T15:38:28.804994-07:00"
+    created: "2020-10-06T15:42:21.348388-07:00"
     dependencies:
     - name: pingdirectory
       repository: '@pingidentity-solutions'
@@ -91,7 +120,7 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-10-02T15:38:28.820885-07:00"
+    created: "2020-10-06T15:42:21.461819-07:00"
     description: A Sample PingAccess Helm chart
     digest: 7fd4d7051b374fbe14b6556b52bb491838585effa8e518a8a6bb0fb7ffa76d0e
     home: https://www.pingidentity.com/
@@ -106,7 +135,7 @@ entries:
   pingcentral:
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2020-10-02T15:38:28.824046-07:00"
+    created: "2020-10-06T15:42:21.466316-07:00"
     description: A Sample PingCentral Helm chart - based on pingidentity-pc chart
     digest: b1f08e63a3dfeba159940c5943a43738141b0506ea34626e53d14b9200f0624a
     home: https://www.pingidentity.com/
@@ -121,7 +150,7 @@ entries:
   pingdataconsole:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-10-02T15:38:28.825128-07:00"
+    created: "2020-10-06T15:42:21.468029-07:00"
     description: A Sample PingDataConsole Helm chart
     digest: 1516fd9024b975f2f8164ef417d71085f77b3b492f2cac723b9b59ed68bfe468
     home: https://www.pingidentity.com/
@@ -136,7 +165,7 @@ entries:
   pingdatasync:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-10-02T15:38:28.826744-07:00"
+    created: "2020-10-06T15:42:21.469551-07:00"
     description: A Sample PingDataSync Helm chart - CPrice edits
     digest: 47c77b9a3acfeb0fa687c4f64dcd653ec4eba8b1dbb069e1389a598c417a299c
     home: https://www.pingidentity.com/
@@ -151,7 +180,7 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-10-02T15:38:28.82793-07:00"
+    created: "2020-10-06T15:42:21.4716-07:00"
     description: A Sample PingDirectory Helm chart - CPrice edits
     digest: 1a15185a5c725c115f1bce2f4dd03d54da93e9e3deae1591f4d62527f3814f63
     home: https://www.pingidentity.com/
@@ -166,7 +195,7 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-10-02T15:38:28.829244-07:00"
+    created: "2020-10-06T15:42:21.512711-07:00"
     description: A Sample PingFederate Helm chart with clustering - CPrice Edits
     digest: 4bcab618d4f8435db40af0aa43677bb05571af8aa2857ef9efc8d7ff0fcf199d
     home: https://www.pingidentity.com/
@@ -178,4 +207,4 @@ entries:
     urls:
     - pingfederate-0.0.3.tgz
     version: 0.0.3
-generated: "2020-10-02T15:38:28.795098-07:00"
+generated: "2020-10-06T15:42:21.295053-07:00"
